@@ -1,0 +1,113 @@
+html{
+    min-height: 100vh;
+    margin: 0%;
+}
+body{
+    background-color: #a5a3a369;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    margin: 0%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: content;
+    height: auto;
+    width: 90vw;
+    padding: 1vh 1vh;
+    margin: 30px 50px;
+    gap: 1vh;
+    
+    background-color: white; 
+}
+.items{
+    border-radius: 7px;
+    /* margin-top: 1.5vh; */
+    height: 43vh;
+    flex-wrap: wrap;
+    flex: 1 1 50vh;
+    max-width: 50vw;
+    background-color: #700608;
+    justify-content: center;
+    align-items: center;
+}
+.item-2{
+    background-color: #70087F;
+}
+.item-4{
+    background-color: #70087F;
+   
+}
+svg{
+    margin: 20px 12px;
+}
+
+
+h1 {
+    margin: 0;
+    margin-left: 22px;
+    color: hsl(0, 0%, 95%);
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-size: x-large;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}h1 {
+    margin: 0;
+    margin-left: 22px;
+    color: hsl(0, 0%, 95%);
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-size: 28px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+p{
+    font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:hsla(0, 0%, 100%, 0.75);
+    margin: 20px 15px 19px 22px;
+
+    font-size: 11px;
+  }
+  button{
+    margin: 0;
+    margin-left: 15px;
+    color: #70087F;
+    font-family: "Lexend Deca", serif;
+    font-optical-sizing: auto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight:bolder;
+    font-variation-settings:
+      "wdth" 100;
+width: 75px;
+height: 37px;
+cursor: pointer;
+
+      border: none;
+      border-radius: 17.5px;
+      
+  }
+  .purplebutton{
+    color: #700608;
+  }
+  button:hover {
+    background-color: #70087F; 
+    color: white; 
+    transform: scale(1.05); 
+}
+.purplebutton:hover {
+    background-color: #700608; 
+    color: white; 
+}
